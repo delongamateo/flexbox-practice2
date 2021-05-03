@@ -8,7 +8,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  height: 100vw;
+  min-height: 100vh;
 }
 
 
@@ -17,7 +17,7 @@ body {
   flex-direction: row;
   align-items: center;
   background-color: grey;
-  height: 10%;
+  height: 100px;
 }
 
 h1 {
@@ -28,6 +28,7 @@ h1 {
 .sidebar_and_article {
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
   height: 80%;
 }
 
@@ -64,7 +65,7 @@ footer {
   flex-direction: row;
   align-items: center;
   background-color: rgb(54, 54, 54);
-  height: 10%;
+  height: 100px;
 
 }
 
